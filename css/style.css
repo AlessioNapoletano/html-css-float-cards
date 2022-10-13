@@ -4,6 +4,13 @@
     box-sizing: border-box;
     font-family: 'Fredoka', sans-serif;
 }
+/*.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}*/
+
+                                                        /*HEADER*/
 header{
     text-align: center;
 }
@@ -15,6 +22,38 @@ header h1{
 div.box-page{
     width: 70%;
     margin: 3rem auto;
-    height: 100px;
 }
 
+                                                    /*SECTION BOX-TEAM*/
+
+main section.box-team{
+    margin: 2rem 2rem;
+    background-color: black;
+    width: 16rem;
+    height: 4.5rem;
+    float: left;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+main section{
+    color: white;
+    font-size: 12px;
+}
+
+img{
+    width: 72px;
+    float: left;
+}
+
+div.description{
+    display: inline-block;
+}
+
+div.description p, div.description h3{
+    padding: .3rem .5rem;
+}
+
+p.p-email{
+    color: lightskyblue;
+    text-decoration: underline;
+}
