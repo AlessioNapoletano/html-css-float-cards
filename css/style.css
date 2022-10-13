@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Fredoka', sans-serif;
 }
-.clearfix::after {
+section.clearfix::after {
     content: "";
     clear: both;
     display: table;
@@ -42,6 +42,7 @@ main section{
 
 img{
     height: 100%;
+    float: left;
 }
 
 div.description{
@@ -49,7 +50,7 @@ div.description{
 }
 
 div.description p, div.description h3{
-    padding: .36rem .5rem;
+    padding: .3rem .5rem;
 }
 
 p.p-email{
