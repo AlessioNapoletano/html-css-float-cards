@@ -29,7 +29,7 @@ div.box-page{
 main section.box-team{
     margin: 2rem 2rem;
     background-color: black;
-    width: 16rem;
+    width: calc(80% / 3);
     height: 4.5rem;
     float: left;
     box-shadow: 5px 10px 8px #888888;
