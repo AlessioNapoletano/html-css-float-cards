@@ -27,9 +27,10 @@ div.box-page{
                                                     /*SECTION BOX-TEAM*/
 
 main section.box-team{
-    margin: 2rem 2rem;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
     background-color: black;
-    width: calc(80% / 3);
+    width: calc(calc(100% / 3) - 1.5rem);
     height: 4.5rem;
     float: left;
     box-shadow: 5px 10px 8px #888888;
